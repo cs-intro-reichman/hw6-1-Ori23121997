@@ -1,5 +1,7 @@
 import java.awt.Color;
 
+import javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener;
+
 
 public class Editor4 {
     public static void main (String[] args){
@@ -9,7 +11,6 @@ public class Editor4 {
         Color[][] imageGray = Runigram.grayScaled(imageIn);
 		Color[][] imageOut = null;
         Runigram.setCanvas(imageIn);
-        Runigram.morph(imageIn, imageGray, n);
-		
+        Runigram.morph(imageIn, imageGray, n);	
 	}
 }
