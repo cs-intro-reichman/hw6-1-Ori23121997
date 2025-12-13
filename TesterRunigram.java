@@ -8,7 +8,7 @@ public class TesterRunigram {
     public static final double EPS = 0.00001;
 
     public static void main(String[] args) {
-        String testName = args[0];
+        String testName = "blend";
 
         if (testName.equals("read")) {
             // Testing Runigram.read
